@@ -11,7 +11,7 @@ using agora_gaming_rtc;
 using UnityEngine.Android;
 #endif
 
-public class AgoraInterface : MonoBehaviour
+public class AgoraInterfaceScript : MonoBehaviour
 {
     static IRtcEngine mRtcEngine;
 
