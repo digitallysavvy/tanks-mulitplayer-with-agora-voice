@@ -81,7 +81,7 @@ namespace Tanks.UI
 
                         // Agora.io Implimentation
                         var channelName = m_MatchNameInput.text; // testing --> prod use: m_MatchNameInput.text 
-                        IRtcEngine mRtcEngine = IRtcEngine.GetEngine(AgoraInterfaceScript.appId); // Get a reference to the Engine
+                        IRtcEngine mRtcEngine = IRtcEngine.GetEngine(AgoraInterface.appId); // Get a reference to the Engine
                         mRtcEngine.JoinChannel(channelName, "extra", 0); // join the channel with given match name
 
                         // testing
