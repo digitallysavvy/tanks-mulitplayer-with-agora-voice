@@ -10,7 +10,7 @@ public class LeaveHandler : MonoBehaviour
     void OnEnable()
     {
         // Agora.io Implimentation
-        IRtcEngine mRtcEngine = IRtcEngine.GetEngine(AgoraInterfaceScript.appId); // Get a reference to the Engine
+        IRtcEngine mRtcEngine = IRtcEngine.GetEngine(AgoraInterface.appId); // Get a reference to the Engine
         if (mRtcEngine != null)
         {
             Debug.Log("Leaving Channel");
